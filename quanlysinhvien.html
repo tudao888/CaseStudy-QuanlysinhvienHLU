@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="quanlysinhvien.css">
+    <script src="quanlysinhvien.js"></script>
+</head>
+<style>
+</style>
+<body>
+<a href="https://anhdepchat.blog.fc2.com/blog-entry-4.html"><img src="image/hlu.png" alt=""></a>
+
+<h1>QUẢN LÝ SINH VIÊN HLU</h1>
+<table border="1" id="bang1">
+    <tr>
+        <td colspan="3" style="text-align: center" id="td1">THÔNG TIN SINH VIÊN</td>
+    </tr>
+    <tr>
+        <td>ID</td>
+        <td colspan="2"><input type="number" id="id"></td>
+    </tr>
+    <tr>
+        <td>Họ và tên</td>
+        <td colspan="2"><input type="text" id="name"></td>
+    </tr>
+    <tr>
+        <td>Ngày sinh</td>
+        <td colspan="2"><input type="text" id="date"></td>
+    </tr>
+    <tr>
+        <td>Giới tính</td>
+        <td colspan="2"><input type="text" id="gender"></td>
+    </tr>
+    <tr>
+        <td>Lớp</td>
+        <td colspan="2"><input type="text" id="class"></td>
+    </tr>
+    <tr>
+        <td>Ảnh</td>
+        <td colspan="2"><input type="text" id="image"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td style="text-align: right">
+            <button id="add" onclick="add()">ADD</button>
+        </td>
+        <td style="text-align: left">
+            <button id="save" onclick="pressSave()">SAVE</button>
+        </td>
+    </tr>
+
+</table>
+
+<table id="bang2" border="1">
+    <tr style="background-color: red">
+        <td colspan="8" style="color: aliceblue;"  >DANH SÁCH SINH VIÊN</td>
+    </tr>
+
+    <tr>
+        <td>ID</td>
+        <td>Họ và tên</td>
+        <td>Ngày sinh</td>
+        <td>Giới tính</td>
+        <td>Lớp</td>
+        <td>Ảnh</td>
+        <td>
+            <button>EDIT</button>
+        </td>
+        <td>
+            <button>DELETE</button>
+        </td>
+    </tr>
+    <tbody id="tbody1"></tbody>
+</table>
+
+</body>
+</html>

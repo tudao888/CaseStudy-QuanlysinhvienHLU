@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    font-size: 55px;
+    background: deepskyblue;
+}
+td {
+    text-align: center;
+    font-size: 20px;
+    height: 40px;
+}
+#bang1 {
+    width: 600px;
+    height: 350px;
+    background-color: deepskyblue ;
+}
+
+#td1 {
+    background-color: red;
+    color: aliceblue;
+}
+button {
+    background-color: red;
+    color: aliceblue;
+}
+#bang2 {
+    position: relative;
+    width: 900px;
+    left: 600px ;
+    bottom:369px
+}
+img {
+    width: 1500px ;
+    height: 200px
+}
+#img1 {
+    width: 110px;
+    height: 150px;
+}
