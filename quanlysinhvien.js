@@ -1,4 +1,13 @@
+// let studentHLU = {
+//     id: '011',
+//     name: 'Đào Thị Hiền',
+//     date: '07/02/2000',
+//     gender: 'Nữ',
+//     class: 'HLU113',
+//     image: 'https://toplist.vn/images/800px/tiem-chup-anh-the-lay-ngay-dep-nhat-o-hue-chu-de-da-duoc-nhan-cua-kieu-nguyen-317636.jpg'
+// }
 let listStudent = [];
+display();
 
 function add() {
     let id1 = document.getElementById('id').value;
@@ -15,7 +24,6 @@ function add() {
         'gender': gender1,
         'class': class1,
         'image': image1
-
     }
     listStudent.push(student)
     display();
