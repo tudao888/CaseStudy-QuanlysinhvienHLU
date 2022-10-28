@@ -1,12 +1,13 @@
-// let studentHLU = {
-//     id: '011',
-//     name: 'Đào Thị Hiền',
-//     date: '07/02/2000',
-//     gender: 'Nữ',
-//     class: 'HLU113',
-//     image: 'https://toplist.vn/images/800px/tiem-chup-anh-the-lay-ngay-dep-nhat-o-hue-chu-de-da-duoc-nhan-cua-kieu-nguyen-317636.jpg'
-// }
-let listStudent = [];
+let studentHLU = {
+    id: '011',
+    name: 'Đào Thị Hiền',
+    date: '07/02/2000',
+    gender: 'Nữ',
+    class: 'HLU113',
+    image: 'https://toplist.vn/images/800px/tiem-chup-anh-the-lay-ngay-dep-nhat-o-hue-chu-de-da-duoc-nhan-cua-kieu-nguyen-317636.jpg'
+}
+let listStudent = [studentHLU];
+
 display();
 
 function add() {
@@ -31,6 +32,7 @@ function add() {
 
 function display() {
     let html = ``;
+    console.log(listStudent)
     for (let i = 0; i < listStudent.length; i++) {
         html += `<tr>
         <td>${listStudent[i].id}</td>
